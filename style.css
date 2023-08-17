@@ -2,6 +2,8 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Istok Web', sans-serif;
 }
 body{
     height: 100vh; 
@@ -28,4 +30,12 @@ body{
     display: flex;
 
 
+}
+.new-task-container input{
+    flex: 3;
+    font-size: 1rem;
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
 }
