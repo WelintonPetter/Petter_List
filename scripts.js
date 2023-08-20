@@ -21,6 +21,12 @@ const handleAddTask = () => {
   const taskContent = document.createElement('p')
   taskContent.innerText = inputElement.value;
 
+  const deleteItem = document.createElement("i");
+  deleteItem.classList.add("fa-regular");
+  deleteItem.classList.add("fa-trash-can");
+
+ 
+
 
 
 
