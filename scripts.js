@@ -99,7 +99,7 @@ const updateLocalStorage = () => {
       taskContent.innerText = task.description;
 
       if (task.isCompleted){
-        taskContent.classList.add("completed");
+        taskContent.classList.add("ompleted");
       }
 
       taskContent.addEventListener("click",() =>
