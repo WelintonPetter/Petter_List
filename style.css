@@ -81,14 +81,16 @@
     color: #fff;;
     font-weight: bold;
     background-color: rgba(65, 184, 131, 0.8);
-    padding: 10px;
+    padding: 15px;
     border-radius: 15px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     
   }
   
   .task-item i {
-    background-color: red;
+    
+    background-color:rgba(255, 0, 8, 0.7);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     color: #fff;
     padding: 12px;
     border-radius: 5px;
@@ -108,14 +110,14 @@
     color: red;
   }
   
+
   .task-item .completed {
 
     text-decoration: line-through;
     color: green;
-    font-size: 10px;
-    font-weight: bold;
+   
     background-color: rgba(65, 184, 131, 0.8);
-    padding: 15px;
+    padding: 10px;
     border-radius: 15px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 
