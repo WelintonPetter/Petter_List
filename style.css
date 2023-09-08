@@ -23,6 +23,13 @@
     width: 40%;
     min-width: 500px;
   }
+  .containerv2 a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;  
+  }
+  
+
    
   .new-task-container {
     background-color: #fff;
